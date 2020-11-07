@@ -1,6 +1,7 @@
 # Retro Computer store
 
 This project consists of a fictional computer store, employment and bank.
+
 You can earn money by clicking the work button, and borrow money from the bank with the lending button. 
 The money in Bank balance can be used to buy laptops.
 
