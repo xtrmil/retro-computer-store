@@ -41,7 +41,7 @@ function lending(){
 
     if ((amount <= bankBalance * 2) && canTakeLoan){
         alertSuccess(true);
-        document.getElementById("infoMessage").innerHTML = "Confirmed loan of " + amount;
+        document.getElementById("infoMessage").innerHTML = "Confirmed loan of: " + amount;
         bankBalance += Number(amount);
         document.getElementById("bankBalance").innerHTML = bankBalance;
         canTakeLoan = false;
@@ -90,4 +90,7 @@ function alertSuccess(succeeded){
     }
 }
 
+setInputFilter(document.getElementById("loanValue"), function(value) {
+    return /^\d*\.?\d*$/.test(value);
+  });
 
