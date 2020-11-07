@@ -66,7 +66,7 @@ function buy(){
         alertSuccess(true);
         document.getElementById("infoMessage").innerHTML = "You successfully bought a new Laptop for: " + price + " SEK";
         bankBalance -= price;
-        document.getElementById("bankBalance").innerHTML = bankBalance;
+        document.getElementById("bankBalance").innerHTML = "Balance: " + bankBalance + " SEK";
         canTakeLoan = true;
     }else{
         alertSuccess(false);
