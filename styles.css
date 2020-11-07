@@ -1,0 +1,53 @@
+#modelImage{
+    height: 300px;
+}
+
+#bottomAlign{
+    align-self: flex-end;
+}
+
+#price{
+    text-align: center;
+    font-size: 50px;
+}
+#modelinfo{
+    align-content: center;
+}
+.topcard{
+    height: 215px;
+    font-size: 14px;
+}
+
+.bottomcard{
+    font-size: 15px;
+}
+.bg-card{
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.fullvid{
+    height: 100vh; 
+    width: 100vh;
+    min-width: 100%; 
+    object-fit: cover;
+    opacity:0.9;
+}
+body{
+    font-family: Consolas, monaco, monospace;
+}
+
+#confirmButton{
+    width: 150px;
+    align-self: center;
+}
+
+#loanValue{
+    width: 150px;
+    align-self: center;
+}
