@@ -43,7 +43,7 @@ function lending(){
         alertSuccess(true);
         document.getElementById("infoMessage").innerHTML = "Confirmed loan of: " + amount;
         bankBalance += Number(amount);
-        document.getElementById("bankBalance").innerHTML = bankBalance;
+        document.getElementById("bankBalance").innerHTML = "Balance: " + bankBalance + " SEK";
         canTakeLoan = false;
     }else{
         alertSuccess(false);
