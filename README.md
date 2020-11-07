@@ -11,7 +11,7 @@ The money in your Bank balance can be used to buy laptops.
 
 You can visit the page on : https://xtrmil.github.io/retro-computer-store/
 
-Or you will need Visual Studio Code and Live server to run it locally.
+To run the project locally you will need Visual Studio Code and Live server.
 
 
 ## License
