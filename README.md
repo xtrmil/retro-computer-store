@@ -3,7 +3,8 @@
 This project consists of a fictional computer store, employment and bank.
 
 You can earn money by clicking the work button, and borrow money from the bank with the lending button. 
-The money in Bank balance can be used to buy laptops.
+
+The money in your Bank balance can be used to buy laptops.
 
 
 ## How to use
